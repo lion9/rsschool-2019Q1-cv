@@ -21,22 +21,22 @@ Programming skills are in high demand around the globe. That's why my goal is to
 
 ###### HANDS-ON EXPERIENCE (both based on courses and my own webapps)
 
-[Paddle game](https://vecherov-paddlegame.herokuapp.com/index.html)
+[Paddle game](https://vecherov-paddlegame.herokuapp.com/index.html) - 
 [github](https://github.com/lion9/paddlegame)
 
-[Osmos-like game (still in progress)](https://osmos-like-game.herokuapp.com/)
+[Osmos-like game (still in progress)](https://osmos-like-game.herokuapp.com/) -
 [github](https://github.com/lion9/osmos)
 
-[Tile-based car (still in progress)](https://cars-test-app.herokuapp.com/)
+[Tile-based car (still in progress)](https://cars-test-app.herokuapp.com/) -
 [github](https://github.com/lion9/cars)
 
-[Space invaders simple clone](https://arcade-game-test.herokuapp.com/)
+[Space invaders simple clone](https://arcade-game-test.herokuapp.com/) -
 [github](https://github.com/lion9/space-invaders)
 
-[Another paddle game](https://another-paddle-game.herokuapp.com)
+[Another paddle game](https://another-paddle-game.herokuapp.com) -
 [github](https://github.com/lion9/another_paddlegame)
 
-[Example of responsive design HTML, CSS, Sass (based on a self-paced course project)](http://yuagroprom.ru/test1/)
+[Example of responsive design HTML, CSS, Sass (based on a self-paced course project)](http://yuagroprom.ru/test1/) -
 [github](https://github.com/lion9/welcometominsk)
 <br><br>
 
