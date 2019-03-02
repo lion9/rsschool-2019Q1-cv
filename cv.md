@@ -1,7 +1,7 @@
 **<h2>TO WHOM IT MAY CONCERN</h2>**..
 **<h6">CONTACT DETAILS</h6>**..
 **Name:** Artyom Vecherov..
-**Cell-phone number**: +375292851119\
+**Cell-phone number**: +375292851119..
 **E-mail**: a.vecherov@gmail.com..
 **Skype**: lingvostar..
 **<h6>SUMMARY</h6>**..
