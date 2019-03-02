@@ -1,5 +1,5 @@
 ## TO WHOM IT MAY CONCERN
-###### CONTACT DETAILS
+#### CONTACT DETAILS
 **Name:** Artyom Vecherov
 
 **Cell-phone number**: +375292851119
@@ -18,7 +18,23 @@ information being verified by RS-School and undertake to provide any additional 
 Programming skills are in high demand around the globe. That's why my goal is to do my best to ultimately become a full-stack programmer. “Never stop training! Unless you have a translation job as a freelance translator” is now my motto :)
 <br><br>
 
-###### COURSES (both MOOCs and self-paced):
+
+###### HANDS-ON EXPERIENCE (both based on courses and my own webapps)
+
+[Paddle game](https://vecherov-paddlegame.herokuapp.com/index.html)
+
+[Osmos-like game (still in progress)](https://osmos-like-game.herokuapp.com/)
+
+[Tile-based car (still in progress)](https://cars-test-app.herokuapp.com/)
+
+[Space invaders simple clone](https://arcade-game-test.herokuapp.com/)
+
+[Another paddle game](https://another-paddle-game.herokuapp.com)
+
+[Example of responsive design HTML, CSS, Sass (based on a self-paced course project)](http://yuagroprom.ru/test1/)
+<br><br>
+
+###### COURSES (both MOOCs and self-paced)
 
 **Java:**
 
@@ -43,3 +59,9 @@ Learn to Program: The Fundamentals, University of Toronto | [Statement of accomp
 **JavaScript:**
 
 [Code Your First Game: Arcade Classic in JavaScript on Canvas](https://www.udemy.com/code-your-first-game/)
+<br><br>
+
+
+###### ENGLISH LANGUAGE LEVEL
+
+13 years' experience as a freelance translator/editor 
