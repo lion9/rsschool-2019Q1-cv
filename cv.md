@@ -35,6 +35,9 @@ Programming skills are in high demand around the globe. That's why my goal is to
 <br><br>
 
 ###### COURSES (both MOOCs and self-paced)
+**Codewars:**
+
+[https://www.codewars.com/users/ArtyomVecherov](https://www.codewars.com/users/ArtyomVecherov)
 
 **Java:**
 
@@ -42,7 +45,7 @@ Programming skills are in high demand around the globe. That's why my goal is to
 
 **Python:**
 
-[Learn to Program: The Fundamentals, University of Toronto - Statement of accomplishment](http://goo.gl/A0RlRf)
+Learn to Program: The Fundamentals, University of Toronto / [Statement of accomplishment](http://goo.gl/A0RlRf)
 
 **SQL:**
 
