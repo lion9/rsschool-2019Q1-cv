@@ -10,7 +10,7 @@
 <br><br>
 
 
-###### SUMMARY
+#### SUMMARY
 I hereby confirm that the information provided by me on this CV form
 regarding my skill and programming experience is to the best of my knowledge true and accurate. I consent to this
 information being verified by RS-School and undertake to provide any additional information as requested.
@@ -19,7 +19,7 @@ Programming skills are in high demand around the globe. That's why my goal is to
 <br><br>
 
 
-###### HANDS-ON EXPERIENCE (both based on courses and my own webapps)
+#### HANDS-ON EXPERIENCE (both based on courses and my own webapps)
 
 [Paddle game](https://vecherov-paddlegame.herokuapp.com/index.html) - 
 [github](https://github.com/lion9/paddlegame)
@@ -40,7 +40,7 @@ Programming skills are in high demand around the globe. That's why my goal is to
 [github](https://github.com/lion9/welcometominsk)
 <br><br>
 
-###### COURSES (both MOOCs and self-paced)
+#### COURSES (both MOOCs and self-paced)
 **Codewars:**
 
 [https://www.codewars.com/users/ArtyomVecherov](https://www.codewars.com/users/ArtyomVecherov)
@@ -71,6 +71,6 @@ Learn to Program: The Fundamentals, University of Toronto / [Statement of accomp
 <br><br>
 
 
-###### ENGLISH LANGUAGE LEVEL
+#### ENGLISH LANGUAGE LEVEL
 
 13 years' experience as a freelance translator/editor 
