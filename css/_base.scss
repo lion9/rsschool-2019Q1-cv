@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-primary;
+    font-weight: 400;
+    
+}
+
+html {
+    font-size: 62.5%; //10px/16px = 62.5% -> 10px;
+    @media screen and (max-width: 1600px) {
+        font-size: 50%;
+    }
+
+    @media screen and (max-width: 1300px) {
+        font-size: 45%;
+    }
+    
+    background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(66,66,66,0.5)),url(../img/background.png);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+.container {
+    width: 60vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    overflow: auto;
+    grid-template-columns: repeat(3, 1fr);
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(219, 219, 219, 0.6));
+    background-size: cover;
+    box-shadow: 0 1.5rem rem rgba(0,0,0,0.2);
+
+    @media screen and (max-width: 1300px) {
+        grid-template-columns: 1fr;
+    }
+
+    @media screen and (max-width: 700px) {
+        width: 100vw;
+    }
+}
+
+a,
+a:visited {
+    color: $color-grey;
+}
+
+h1 {
+    font-size: 2rem;
+    padding: 0 .5rem;
+    text-align: center;
+    background-color: #777;
+    color: white;
+    margin-bottom: 1rem;
+    
+}
+
+p, a {
+    font-size: 1.5rem;
+    margin-bottom: .7rem;
+}
+
+::selection {
+    color: $color-white;
+    background-color: rgb(124, 124, 124);
+}
