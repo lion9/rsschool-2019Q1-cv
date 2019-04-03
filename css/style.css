@@ -1,0 +1,214 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+}
+
+html {
+  font-size: 62.5%;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(66, 66, 66, 0.5))), url(../img/background.png);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(66, 66, 66, 0.5)), url(../img/background.png);
+}
+
+@media screen and (max-width: 1600px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+
+.container {
+  width: 60vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 1rem;
+  display: -ms-grid;
+  display: grid;
+  overflow: auto;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(219, 219, 219, 0.6)));
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(219, 219, 219, 0.6));
+  background-size: cover;
+  -webkit-box-shadow: 0 1.5rem rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1.5rem rem rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 100vw;
+  }
+}
+
+a,
+a:visited {
+  color: #777;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 0 .5rem;
+  text-align: center;
+  background-color: #777;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+p, a {
+  font-size: 1.5rem;
+  margin-bottom: .7rem;
+}
+
+::-moz-selection {
+  color: white;
+  background-color: #7c7c7c;
+}
+
+::selection {
+  color: white;
+  background-color: #7c7c7c;
+}
+
+.sidebar {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 2rem;
+  justify-items: end;
+  -ms-flex-line-pack: start;
+      align-content: start;
+}
+
+@media screen and (max-width: 1300px) {
+  .sidebar {
+    grid-column: 1 / -1;
+    justify-items: center;
+  }
+}
+
+.sidebar h1 {
+  -webkit-clip-path: polygon(2rem 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(2rem 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.sidebar > * {
+  width: 90%;
+  padding: 10px;
+  line-height: 2.4rem;
+  color: #777;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.sidebar > *:hover {
+  -webkit-transform: translateY(-1rem) scale(1.01);
+          transform: translateY(-1rem) scale(1.01);
+}
+
+.sidebar__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sidebar__contacts__photo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.sidebar__contacts img {
+  max-width: 17rem;
+  height: auto;
+  border-radius: .3rem;
+}
+
+.fas, .fab {
+  margin: 1rem;
+}
+
+.name {
+  text-align: center;
+}
+
+.main {
+  grid-column: 2 / -1;
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 2rem;
+  justify-items: center;
+  -ms-flex-line-pack: start;
+      align-content: start;
+}
+
+@media screen and (max-width: 1300px) {
+  .main {
+    grid-column: 1 / -1;
+    justify-items: center;
+  }
+}
+
+.main h1 {
+  -webkit-clip-path: polygon(2rem 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(2rem 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.main > * {
+  width: 90%;
+  padding: 10px;
+  line-height: 2.4rem;
+  color: #777;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.main > *:hover {
+  -webkit-transform: translateY(-1rem) scale(1.01);
+          transform: translateY(-1rem) scale(1.01);
+}
+
+@media screen and (max-width: 1300px) {
+  .experience {
+    margin-top: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
